@@ -1,0 +1,43 @@
+.Checkbox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.CheckboxRoot {
+  cursor: pointer;
+  background-color: #24222b;
+  border: 2px solid #d0cfd7;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s ease;
+}
+
+.CheckboxRoot[data-state="checked"] {
+  background-color: #a6fdaf;
+  border: 2px solid #a6fdaf;
+}
+
+.CheckboxRoot:hover {
+  border: 2px solid #a6fdaf;
+}
+.CheckboxRoot:focus {
+  box-shadow: 0 0 0 2px black;
+}
+
+.CheckboxIndicator {
+  width: 16px;
+  height: 16px;
+  color: #000f00;
+}
+
+.Label {
+  cursor: pointer;
+  color: #d0cfd7;
+  font-size: 16px;
+  font-weight: 600;
+}

@@ -1,0 +1,12 @@
+.block {
+  display: block;
+  min-width: 12px;
+  height: 30px;
+  border: 2px solid #fff;
+  background: inherit;
+
+  &.paint {
+    background: #f6cc67;
+    border: 2px solid #f6cc67;
+  }
+}

@@ -1,0 +1,46 @@
+.content {
+  min-width: 800px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #24222b;
+  padding: 20px;
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+    .label404 {
+      font-size: 100px;
+      font-weight: 600;
+    }
+
+    .labelNotFound {
+      font-size: 80px;
+      font-weight: 600;
+    }
+  }
+
+  .footer {
+    padding-top: 40px;
+    width: 100%;
+
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      width: 100%;
+      cursor: pointer;
+      background: #a5fdaf;
+      color: #2b4f2f;
+      font-size: 40px;
+      font-weight: 600;
+    }
+  }
+}
